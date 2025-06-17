@@ -1,8 +1,12 @@
-# Projetos de Data Science e AI
+# Projetos de Ciência de Dados e IA
 
-## [PDSAI001: Construção e Análise de um Corpus para Avaliação Automática de Redações no Contexto do ENEM](./001-Projeto-01)
+## [PDSAI001: Construção e Análise de um Corpus para Avaliação Automática de Redações no Contexto do ENEM](https://github.com/laicsiifes/aes_enem_corpus)
   
-Este projeto envolve a construção de um novo corpus de redações do ENEM, com 8.792 textos anotados com notas por competência e comentários de avaliadores. Inclui scripts de Web Scraping e processamento em Python para extração, limpeza e estruturação dos dados em JSON. Foram conduzidos experimentos com modelos BERT (Albertina, BERTimbau-base, RoBERTa, DistilBERTimbau) para avaliação automática das redações, demonstrando bom desempenho, especialmente do BERTimbau-base. Também foram analisadas limitações de generalização entre diferentes corpora. O corpus visa apoiar pesquisas futuras em NLP educacional.
+Este projeto envolve a construção de um novo corpus de redações no formato do ENEM, com 8.792 textos dissertativo-argumentativos extraídos do portal UOL Escola. As redações foram anotadas com notas por competência e acompanhadas de comentários de avaliadores humanos. Foram desenvolvidos scripts em Python para web scraping, limpeza e estruturação dos dados em formato JSON.
+
+Utilizando técnicas de **Inteligência Artificial (IA)** e **Processamento de Linguagem Natural (NLP)**, foram conduzidos experimentos com modelos BERT (Albertina, BERTimbau-base, RoBERTa, DistilBERTimbau) para a avaliação automática dos textos, com destaque para o BERTimbau-base, que apresentou o melhor desempenho. Também foram analisadas limitações de generalização entre diferentes corpora, evidenciando desafios para modelos aplicados em bases distintas daquelas usadas no treinamento.
+
+O corpus visa apoiar pesquisas futuras em NLP educacional, especialmente no desenvolvimento de sistemas automáticos de correção e feedback textual.
 
 ### Técnicas e Ferramentas Utilizadas
 
