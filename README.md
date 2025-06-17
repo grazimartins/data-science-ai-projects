@@ -1,6 +1,6 @@
 # Projetos de Ciência de Dados e IA
 
-## [PDSAI001: Construção e Análise de um Corpus para Avaliação Automática de Redações no Contexto do ENEM](https://github.com/laicsiifes/aes_enem_corpus)
+## [PDSAI001: Avaliação Automática de Redações com IA e NLP ](https://github.com/laicsiifes/aes_enem_corpus)
   
 Este projeto envolve a construção de um novo corpus de redações no formato do ENEM, com 8.792 textos dissertativo-argumentativos extraídos do portal UOL Escola. As redações foram anotadas com notas por competência e acompanhadas de comentários de avaliadores humanos. Foram desenvolvidos scripts em Python para web scraping, limpeza e estruturação dos dados em formato JSON.
 
