@@ -6,7 +6,7 @@ Este projeto envolve a construção de um novo corpus de redações no formato d
 
 Utilizando técnicas de **Inteligência Artificial (IA)** e **Processamento de Linguagem Natural (NLP)**, foram conduzidos experimentos com modelos BERT (Albertina, BERTimbau-base, RoBERTa, DistilBERTimbau) para a avaliação automática dos textos, com destaque para o BERTimbau-base, que apresentou o melhor desempenho. Também foram analisadas limitações de generalização entre diferentes corpora, evidenciando desafios para modelos aplicados em bases distintas daquelas usadas no treinamento.
 
-O corpus visa apoiar pesquisas futuras em NLP educacional, especialmente no desenvolvimento de sistemas automáticos de correção e feedback textual.
+O corpus visa apoiar pesquisas futuras em NLP educacional, especialmente no desenvolvimento de sistemas automáticos de correção e feedback textual. Um sistema de avaliação automática como este tem potencial para reduzir o tempo de correção e os custos operacionais do ENEM em milhões de reais, minimizando viés humano e apoiando pesquisas em NLP educacional. As técnicas desenvolvidas, como fine-tuning de BERT, são transferíveis para setores como atendimento ao cliente (análise de sentimentos), jurídico (classificação de contratos), e saúde (processamento de laudos). O modelo pode ser implantado como uma API para integração em plataformas como Moodle ou sistemas de vestibulares.
 
 ### Técnicas e Ferramentas Utilizadas
 
