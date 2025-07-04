@@ -1,6 +1,37 @@
 # Projetos de Ciência de Dados e IA
 
-## [PDSAI_001: Avaliação Automática de Redações com IA e NLP ](https://github.com/laicsiifes/aes_enem_corpus)
+# PDSAI_001: Previsão de Sucesso de Projetos com ML, API e Chatbot Interativo
+
+> [>>>>> EM DESENVOLVIMENTO <<<<<<]
+
+Este projeto apresenta uma solução completa para previsão do sucesso de projetos com base em dados estruturados, utilizando Machine Learning, APIs em Python e um chatbot interativo com interface amigável. A proposta simula um sistema de apoio à decisão para gerentes e membros de equipe, unindo técnicas de modelagem preditiva e personalização conforme o perfil do usuário.
+
+A arquitetura integra um modelo de classificação treinado com dados de projetos, uma API REST em FastAPI para inferência, e um chatbot construído em Streamlit que coleta os dados do projeto, acessa uma base de usuários e fornece previsões e recomendações de forma interativa.
+
+## ⚙️ Técnicas e Ferramentas Utilizadas
+
+- **Machine Learning supervisionado**: Classificadores como Random Forest, XGBoost, CatBoost e Regressão Logística, com seleção automática do melhor modelo com base no F1-Score e tuning com `GridSearchCV`.
+- **Engenharia de atributos**: Criação de variáveis compostas, normalização com `StandardScaler` e seleção de features com RFE.
+- **Balanceamento de classes**: SMOTEENN para lidar com desbalanceamento entre projetos bem-sucedidos e fracassados.
+- **FastAPI**: Criação de uma API REST para consumo do modelo treinado, com endpoint `/predict`.
+- **Joblib**: Serialização do modelo, threshold, scaler e features selecionadas.
+- **Streamlit**: Interface de chatbot
+- **Chatbot**: [EM DESENVOLVIMENTO]
+
+## 📁 Estrutura da Entrega
+
+A entrega está organizada em duas pastas principais:
+
+- `api/`
+- `chatbot/`
+- `notebooks`
+
+## 🔗 Repositório no GitHub
+
+Em breve: `https://github.com/grazimartins/project-success-predictor`
+
+
+## [PDSAI_002: Avaliação Automática de Redações com IA e NLP ](https://github.com/laicsiifes/aes_enem_corpus)
   
 Este projeto envolve a construção de um novo corpus de redações no formato do ENEM, com 8.792 textos dissertativo-argumentativos extraídos do portal UOL Escola. As redações foram anotadas com notas por competência e acompanhadas de comentários de avaliadores humanos. Foram desenvolvidos scripts em Python para web scraping, limpeza e estruturação dos dados em formato JSON.
 
@@ -24,7 +55,7 @@ O corpus visa apoiar pesquisas futuras em NLP educacional, especialmente no dese
 
 ---
 
-## [PDSAI_002: Chat com PDFs usando LLMs, RAG e IA Generativa](https://github.com/grazimartins/chat-pdf-rag)
+## [PDSAI_003: Chat com PDFs usando LLMs, RAG e IA Generativa](https://github.com/grazimartins/chat-pdf-rag)
 
 Este projeto apresenta uma aplicação interativa que permite **conversar com documentos PDF** utilizando **Modelos de Linguagem de Grande Escala (LLMs)**, **RAG (Retrieval-Augmented Generation)** e **IA Generativa**, integrando ferramentas como **LangChain**, **FAISS**, **Streamlit** e a API da **OpenAI**.
 
