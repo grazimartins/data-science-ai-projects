@@ -29,6 +29,7 @@ A entrega está organizada em duas pastas principais:
 Em breve: 
 🔗 [Repositório no GitHub](https://github.com/grazimartins/project-success-predictor)
 
+---
 
 ## [PDSAI_002: Avaliação Automática de Redações com IA e NLP ](https://github.com/laicsiifes/aes_enem_corpus)
   
