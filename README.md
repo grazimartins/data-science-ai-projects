@@ -26,9 +26,8 @@ A entrega está organizada em duas pastas principais:
 - `chatbot/`
 - `notebooks`
 
-## 🔗 Repositório no GitHub
-
-Em breve: `https://github.com/grazimartins/project-success-predictor`
+Em breve: 
+🔗 [Repositório no GitHub](https://github.com/grazimartins/project-success-predictor)
 
 
 ## [PDSAI_002: Avaliação Automática de Redações com IA e NLP ](https://github.com/laicsiifes/aes_enem_corpus)
