@@ -27,6 +27,8 @@ O corpus visa apoiar pesquisas futuras em NLP educacional, especialmente no dese
 
 🔗 [Repositório no GitHub](https://github.com/laicsiifes/aes_enem_corpus)
 
+
+
 ---
 
 ## [PDSAI_002: Chat com PDFs usando LLMs, RAG e IA Generativa](https://github.com/grazimartins/chat-pdf-rag)
@@ -49,11 +51,11 @@ A proposta oferece uma interface simples e moderna, onde o usuário pode fazer u
 
 🔗 [Repositório no GitHub](https://github.com/grazimartins/chat-pdf-rag)
 
+
+
 ---
 
-## [PDSAI_003: Previsão de Sucesso de Projetos com Machine Learning, API e Chatbot Interativo ](https://github.com/grazimartins/project-success-predictor)
-
-> [>>>>> EM DESENVOLVIMENTO <<<<<<]
+## [PDSAI_003: Previsão de Sucesso de Projetos com Machine Learning, API e Chatbot Interativo ](https://github.com/grazimartins/case-juscash)
 
 Este projeto apresenta uma solução completa para previsão do sucesso de projetos com base em dados estruturados, utilizando Machine Learning, APIs em Python e um chatbot interativo com interface amigável. A proposta simula um sistema de apoio à decisão para gerentes e membros de equipe, unindo técnicas de modelagem preditiva e personalização conforme o perfil do usuário.
 
@@ -69,16 +71,7 @@ A arquitetura integra um modelo de classificação treinado com dados de projeto
 - **Joblib**: Serialização do modelo, threshold, scaler e features selecionadas.
 - **Streamlit**: Interface de chatbot
 - **Chatbot**: [EM DESENVOLVIMENTO]
-
-## 📁 Estrutura da Entrega
-
-A entrega está organizada em duas pastas principais:
-
-- `api/`
-- `chatbot/`
-- `notebooks`
-
-Em breve: 
-🔗 [Repositório no GitHub](https://github.com/grazimartins/project-success-predictor)
+ 
+🔗 [Repositório no GitHub](https://github.com/grazimartins/case-juscash)
 
 ---
