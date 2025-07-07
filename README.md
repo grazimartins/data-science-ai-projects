@@ -70,7 +70,7 @@ A arquitetura integra um modelo de classificação treinado com dados de projeto
 - **FastAPI**: Criação de uma API REST para consumo do modelo treinado, com endpoint `/predict`.
 - **Joblib**: Serialização do modelo, threshold, scaler e features selecionadas.
 - **Streamlit**: Interface de chatbot
-- **Chatbot**: Coleta dados do usuário/projeto e para consultar a API de predição e gerar recomendações. 
+- **Chatbot**: Coleta dados do usuário/projeto de forma interativa, consulta a API de predição e gera recomendações. 
  
 🔗 [Repositório no GitHub](https://github.com/grazimartins/case-juscash)
 
