@@ -3,6 +3,13 @@
 
 Este repositório centraliza projetos com Machine Learning, Deep Learnig e Inteligência Artificial.
 
+* PDSAI_001: IA e NLP
+* PDSAI_002: LLMs, RAG e IA Generativa
+* PDSAI_003: Machine Learning, API e Chatbot Interativo
+* PDSAI_004: Segmentação de Clientes com Clustering e Dashboard Interativo
+
+
+
 ---
 
 ## [PDSAI_001: Avaliação Automática de Redações com IA e NLP ](https://github.com/laicsiifes/aes_enem_corpus)
@@ -73,5 +80,28 @@ A arquitetura integra um modelo de classificação treinado com dados de projeto
 - **Chatbot**: Coleta dados do usuário/projeto de forma interativa, consulta a API de predição e gera recomendações. 
  
 🔗 [Repositório no GitHub](https://github.com/grazimartins/case-juscash)
+
+
+
+---
+
+## [PDSAI_004: Segmentação de Clientes com RFM, Clustering e Dashboard Interativo ](https://github.com/grazimartins/seg_clientes)
+
+Este projeto apresenta uma solução completa para segmentação de clientes com base no comportamento de compra, utilizando a metodologia RFM (Recência, Frequência e Valor Monetário), técnicas de clustering não supervisionado e um dashboard interativo para visualização dos segmentos. A proposta simula um sistema de apoio estratégico para times de marketing, vendas e produto, permitindo ações personalizadas para diferentes perfis de clientes.
+
+A arquitetura do projeto combina um pipeline modular em Python para cálculo de métricas, seleção e validação de modelos de clusterização, visualizações analíticas, e uma aplicação interativa construída com Streamlit, que permite explorar os clusters e consultar recomendações por segmento.
+
+## ⚙️ Técnicas e Ferramentas Utilizadas
+
+- **Análise Exploratória de Dados (EDA)**: Estudo de frequência de compra, ticket médio, valor total, datas e comportamento por país; Detecção e remoção de outliers.
+- **Engenharia de Atributos**: Cálculo das métricas RFM por cliente;Normalização dos dados com StandardScaler.
+- **Clusterização não supervisionada**: KMeans (com Elbow Method e Silhouette Score), DBSCAN e Agglomerative Clustering;Redução de dimensionalidade para visualização com PCA e UMAP (2D e 3D).
+- **Interpretação e Estratégia**: Análise dos perfis de cluster por Recência, Frequência e Valor Monetário; Regras de negócio para definição de estratégias como: reativação, fidelização, premiação e onboarding.
+- **Streamlit**: Dashboard interativo com visualização dos clusters e filtros dinâmicos; Recomendações de ação por grupo de cliente.
+  
+
+🔗 [Repositório no GitHub](https://github.com/grazimartins/seg_clientes)
+
+
 
 ---
