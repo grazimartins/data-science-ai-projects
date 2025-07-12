@@ -1,7 +1,7 @@
 # Projetos de Ciência de Dados e IA
 ---
 
-Este repositório centraliza projetos com Machine Learning, Deep Learnig e Inteligência Artificial.
+Este repositório centraliza projetos com:
 
 * PDSAI_001: IA e NLP
 * PDSAI_002: LLMs, RAG e IA Generativa
